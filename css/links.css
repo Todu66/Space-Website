@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap');
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li {
+    list-style: none;
+}
+
+.nav_ul li {
+    text-transform: uppercase;
+}
+
+.nav_ul li a::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -32px;
+    transition: 0.5s;
+}
+
+.nav_ul li a:hover::after {
+    width: 100%;
+}
+
+/* #-------------------------------------------------# */
+.right-side-ul li a {
+    font-size: 25px;
+}
+
+.right-side-ul li a::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    transition: 0.4s;
+}
+
+.right-side-ul li a:hover::after {
+    width: 100%;
+}
+
+
+/* 
+    <!-- 
+  00 Home
+  01 Destination
+  02 Crew
+  03 Technology
+
+  01 Pick your destination
+
+  Moon
+  Mars
+  Europa
+  Titan
+
+  Moon
+
+  See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
+  regain perspective and come back refreshed. While you’re there, take in some history 
+  by visiting the Luna 2 and Apollo 11 landing sites.
+
+  Avg. distance
+  384,400 km
+
+  Est. travel time
+  3 days --> */

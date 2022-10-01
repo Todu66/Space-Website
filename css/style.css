@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* WRAPP */
+.wrapp {
+    background-image: url("/starter-code/assets/home/background-home-desktop.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* HEADER */
+.header {
+    padding: 2rem 0 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_ul {
+    display: flex;
+    padding: 2rem;
+    gap: 3rem;
+}
+
+.nav_ul li {
+    position: relative;
+}
+
+.nav_ul li {
+    color: #fff;
+    letter-spacing: 2.7px;
+}
+
+nav {
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.7742px);
+    width: 650px;
+    
+}
+
+/* MAIN BOTH SIDE */
+
+.main-both-side {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    margin-top: 2rem;
+}
+
+
+.main-left-side {
+    
+}
+
+.main-left-side p {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Barlow Condensed';
+    font-weight: 400;
+    color: #D0D6F9;
+    letter-spacing: 4px;
+}
+
+.main-left-side p:nth-last-child(1) {
+    font-family: 'Barlow';
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0;
+}
+
+.main-left-side h2 {
+    color: #fff;
+    font-size: 150px;
+    font-family: 'Bellefair';
+    font-weight: 400;
+}
+
+.main-right-side p {
+    background-color: #fff;
+    padding: 6rem 5rem;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #0B0D17;
+    letter-spacing: 2px;
+}
+
+.main-right-side {
+    cursor: pointer;
+    overflow: hidden;
+}
