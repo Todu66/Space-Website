@@ -14,7 +14,7 @@ body {
 
 /* WRAPP */
 .wrapp {
-    background-image: url("/starter-code/assets/destination/background-destination-desktop.jpg");
+    background-image: url("../starter-code/assets/destination/background-destination-desktop.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
