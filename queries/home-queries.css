@@ -1,7 +1,7 @@
 @media (max-width: 1075px) {
   .header {
     padding: 0 0 0 2rem;
-    position: relative;
+    /* position: relative; */
   }
 
   .nav_ul {
@@ -62,7 +62,7 @@
   }
 
   .header {
-    position: relative;
+    /* position: relative; */
   }
 
   .nav-open nav {
@@ -122,8 +122,6 @@
 }
 
 @media (max-width: 310px) {
-
-
   .main-left-side p:nth-last-child(3) {
     font-size: 15px;
   }
