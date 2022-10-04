@@ -165,6 +165,7 @@ nav {
     border-radius: 50%;
     border: 1px solid grey;
     padding: 1rem 1.3rem;
+    cursor: pointer;
 }
 
 
