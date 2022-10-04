@@ -7,13 +7,15 @@
 
 
 html {
-    overflow: hidden;
+   
 }
+
 body {
     font-family: 'Barlow Condensed';
     font-style: normal;
     font-weight: 400;
-    overflow: hidden;
+    
+    
 }
 
 /* WRAPP */
@@ -24,6 +26,8 @@ body {
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
+    overflow-x: hidden;
+    
 }
 
 /* #---MOBILE-NAVIGATION-START---# */
