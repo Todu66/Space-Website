@@ -14,7 +14,7 @@ body {
 
 /* WRAPP */
 .wrapp {
-    background-image: url("../starter-code/assets/destination/background-destination-desktop.jpg");
+    background-image: url("../starter-code/assets/crew/background-crew-desktop.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -174,7 +174,7 @@ nav {
 }
 
 .moon-right-side img {
-    width: 400px;
+    width: 500px;
     
 }
 
@@ -188,8 +188,12 @@ nav {
     margin-top: 5rem;
 }
 
-.circles div {
+.circles div:nth-child(1) {
     background-color: #fff;
+}
+
+.circles div {
+    background-color: #333;
     padding: 0.7rem 0.7rem;
     border-radius: 50%;
     cursor: pointer;
