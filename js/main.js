@@ -9,6 +9,26 @@ const rightImg = document.querySelector('.right_img');
 const slideFirst = document.querySelector('.slide_first');
 const slideSecond = document.querySelector('.slide_second');
 const slideThird = document.querySelector('.slide_third');
+
+// START OF TECHNOLOGY SLIDE
+const techFirst = document.querySelector(".tech-first");
+const techSecond = document.querySelector(".tech-second");
+const techThird = document.querySelector(".tech-third");
+// ----------------------------------------------------------------
+// ----------------------------------------------------------------
+const btnNavEl = document.querySelector(".btn-mobile-nav");
+const headerEl = document.querySelector(".header");
+const liEl = document.querySelector(".main-nav-list, .main-nav-link");
+
+btnNavEl.addEventListener("click", function () {
+  headerEl.classList.toggle("nav-open");
+});
+
+liEl.addEventListener("click", function () {
+  headerEl.classList.remove("nav-open")
+});
+// ------------------------------------------------------------------
+
 //----------------------------------------------------------- 
 First.addEventListener('click', function() {
     First.style.backgroundColor = '#fff'
@@ -59,4 +79,13 @@ Fourth.addEventListener('click', function() {
     slideThird.innerHTML = "Anousheh Ansari is an Iranian American engineer and<br>\ co-founder of Prodea Systems. Ansari was the fourth<br>\ self-funded space tourist, the first self-funded woman to<br>\ fly to the ISS, and the first Iranian in space. "
     rightImg.src = '../starter-code/assets/crew/image-anousheh-ansari.png';
 })
+
+// -----------------------------------------
+// ------------START OF TECHNOLOGY SLIDE-------------
+techFirst.addEventListener('click', function() {
+    console.log("LOGG")
+});
+
+
+
 
