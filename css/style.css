@@ -1,135 +1,122 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap");
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
-
-html {
-   
-}
-
 body {
-    font-family: 'Barlow Condensed';
-    font-style: normal;
-    font-weight: 400;
-    
-    
+  font-family: "Barlow Condensed";
+  font-style: normal;
+  font-weight: 400;
 }
 
 /* WRAPP */
 .wrapp {
-    background-image: url("../starter-code/assets/home/background-home-desktop.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
-    overflow-x: hidden;
-    
+  background-image: url("../starter-code/assets/home/background-home-desktop.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
 }
 
 /* #---MOBILE-NAVIGATION-START---# */
 
 .btn-mobile-nav {
-    border: none;
-    background: none;
-    cursor: pointer;
-  
-    display: none;
-  }
-  
-  .icon-mobile-nav {
-    height: 3.8rem;
-    width: 3.8rem;
-    color: #333;
-  }
-  
-  .icon-mobile-nav[name="close-outline"] {
-    display: none;
-  }
+  border: none;
+  background: none;
+  cursor: pointer;
 
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 3.8rem;
+  width: 3.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
 
 /* HEADER */
 .header {
-    padding: 2rem 0 0 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
+  padding: 2rem 0 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
 }
 
 .nav_ul {
-    display: flex;
-    padding: 2rem;
-    gap: 3rem;
+  display: flex;
+  padding: 2rem;
+  gap: 3rem;
 }
 
 .nav_ul li {
-    position: relative;
+  position: relative;
 }
 
 .nav_ul li {
-    color: #fff;
-    letter-spacing: 2.7px;
+  color: #fff;
+  letter-spacing: 2.7px;
 }
 
 nav {
-    background: rgba(255, 255, 255, 0.04);
-    backdrop-filter: blur(40.7742px);
-    width: 650px;
-    
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(40.7742px);
+  width: 650px;
 }
 
 /* MAIN BOTH SIDE */
 
 .main-both-side {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 400px;
-    margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+  margin-top: 2rem;
 }
 
-
 .main-left-side {
-    
 }
 
 .main-left-side p {
-    color: #fff;
-    font-size: 20px;
-    font-family: 'Barlow Condensed';
-    font-weight: 400;
-    color: #D0D6F9;
-    letter-spacing: 4px;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Barlow Condensed";
+  font-weight: 400;
+  color: #d0d6f9;
+  letter-spacing: 4px;
 }
 
 .main-left-side p:nth-last-child(1) {
-    font-family: 'Barlow';
-    font-weight: 400;
-    line-height: 32px;
-    letter-spacing: 0;
+  font-family: "Barlow";
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0;
 }
 
 .main-left-side h2 {
-    color: #fff;
-    font-size: 150px;
-    font-family: 'Bellefair';
-    font-weight: 400;
+  color: #fff;
+  font-size: 150px;
+  font-family: "Bellefair";
+  font-weight: 400;
 }
 
 .main-right-side p {
-    background-color: #fff;
-    padding: 6rem 5rem;
-    border-radius: 50%;
-    font-size: 20px;
-    color: #0B0D17;
-    letter-spacing: 2px;
+  background-color: #fff;
+  padding: 6rem 5rem;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #0b0d17;
+  letter-spacing: 2px;
 }
 
 .main-right-side {
-    cursor: pointer;
-    overflow: hidden;
+  cursor: pointer;
+  overflow: hidden;
 }
