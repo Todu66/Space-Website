@@ -31,8 +31,7 @@
 
   .wrapp {
     background-image: url("../starter-code/assets/destination/background-destination-desktop.jpg");
-    overflow: hidden;
-    overflow-x: hidden;
+
   }
 
   .main-right-side p {
@@ -89,6 +88,7 @@
     /* position: relative; */
   }
 
+
   .nav-open nav {
     opacity: 1;
     pointer-events: auto;
@@ -96,11 +96,16 @@
     transform: translateX(0);
     backdrop-filter: blur(7px);
     background-color: rgba(255, 255, 255, 0.6);
+    z-index: 999;
   }
+
+
 
   .nav-open .icon-mobile-nav[name="close-outline"] {
     display: block;
+    z-index: 999999999999;
   }
+
 
   .nav-open .icon-mobile-nav[name="menu-outline"] {
     display: none;
@@ -119,6 +124,8 @@
   .icon-mobile-nav[name="menu-outline"] {
     color: #fff;
   }
+
+
 }
 
 @media (max-width: 530px) {
