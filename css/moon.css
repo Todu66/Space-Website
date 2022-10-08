@@ -30,12 +30,13 @@ body {
   cursor: pointer;
 
   display: none;
+  z-index: 9999;
 }
 
 .icon-mobile-nav {
   height: 3.8rem;
   width: 3.8rem;
-  color: #333;
+  color: #fff;
 }
 
 .icon-mobile-nav[name="close-outline"] {
