@@ -209,6 +209,10 @@
     font-size: 80px;
   }
 
+  .right-side-ul {
+    gap: 1.8rem;
+  }
+
   .main-left-side p:nth-last-child(1) {
     font-size: 11px;
   }
