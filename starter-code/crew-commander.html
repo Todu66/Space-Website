@@ -14,6 +14,7 @@
     <title>Space Website</title>
     <link rel="stylesheet" href="../css/crew.css" />
     <link rel="stylesheet" href="../css/links.css" />
+    <link rel="stylesheet" href="../queries/crew-commander-queries.css" />
   </head>
   <body>
     <!-- Wrapp -->
@@ -24,13 +25,18 @@
         <img src="../starter-code/assets/shared/logo.svg" alt="" />
         <!-- #-------NAV---------# -->
         <nav>
-          <ul class="nav_ul">
+          <ul class="nav_ul main-nav-list">
             <li><a href="../index.html">00 Home</a></li>
             <li><a href="destination-mars.html">01 Destination</a></li>
             <li><a href="../starter-code/crew-commander.html">02 Crew</a></li>
             <li><a href="technology-vehicle.html">03 Technology</a></li>
           </ul>
         </nav>
+
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
       </header>
 
       <!-- MAIN BOTH SIDE -->
@@ -70,6 +76,15 @@
         </div>
       </div>
     </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
     <script src="../js/main.js"></script>
   </body>
 </html>
