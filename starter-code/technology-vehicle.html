@@ -12,8 +12,9 @@
     />
 
     <title>Space Website</title>
-    <link rel="stylesheet" href="../css/technology-vehicle.css">
-    <link rel="stylesheet" href="../css/links.css">
+    <link rel="stylesheet" href="../css/technology-vehicle.css" />
+    <link rel="stylesheet" href="../css/links.css" />
+    <link rel="stylesheet" href="../queries/vehicle-queries.css" />
   </head>
   <body>
     <!-- Wrapp -->
@@ -24,24 +25,26 @@
         <img src="../starter-code/assets/shared/logo.svg" alt="" />
         <!-- #-------NAV---------# -->
         <nav>
-          <ul class="nav_ul">
+          <ul class="nav_ul main-nav-list">
             <li><a href="../index.html">00 Home</a></li>
             <li><a href="destination-mars.html">01 Destination</a></li>
             <li><a href="../starter-code/crew-commander.html">02 Crew</a></li>
             <li><a href="technology-vehicle.html">03 Technology</a></li>
           </ul>
         </nav>
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
       </header>
 
       <!-- MAIN BOTH SIDE -->
       <div class="main-both-side">
         <div class="moon-left-side">
-          
           <div class="moon-text-left">
             <p>03</p>
             <p>SPACE LAUNCH 101</p>
           </div>
-
 
           <div class="both_column">
             <div class="column">
@@ -55,15 +58,21 @@
                 <p class="p-third">3</p>
               </div>
             </div>
-            
+
             <div class="right_text">
               <p class="right-first-p">THE TERMINOLOGY…</p>
               <p class="right-second-p">LAUNCH VEHICLE</p>
-              <p class="right-third-p">A launch vehicle or carrier rocket is a rocket-propelled<br> vehicle used to carry a payload from Earth's surface to<br> space, usually to Earth orbit or beyond. Our WEB-X<br> carrier rocket is the most powerful in operation. Standing <br>150 metres tall, it's quite an awe-inspiring sight on the<br> launch pad!</p>
+              <p class="right-third-p">
+                A launch vehicle or carrier rocket is a rocket-propelled<br />
+                vehicle used to carry a payload from Earth's surface to<br />
+                space, usually to Earth orbit or beyond. Our WEB-X<br />
+                carrier rocket is the most powerful in operation. Standing
+                <br />150 metres tall, it's quite an awe-inspiring sight on
+                the<br />
+                launch pad!
+              </p>
             </div>
-
           </div>
-
         </div>
 
         <div class="moon-right-side">
@@ -76,6 +85,17 @@
         </div>
       </div>
     </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    
     <script src="../js/technology.js"></script>
+    <!-- <script src="../js/main.js"></script> -->
   </body>
 </html>
