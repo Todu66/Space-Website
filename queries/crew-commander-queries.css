@@ -146,10 +146,6 @@
 }
 
 @media (max-width: 630px) {
-  .slide_second {
-    font-size: 40px;
-  }
-
   .moon-right-side img {
     width: 300px;
   }
@@ -187,6 +183,12 @@
 
   .both {
     width: 300px;
+  }
+}
+
+@media (max-width: 440px) {
+  .slide p:nth-last-of-type(2) {
+    font-size: 45px;
   }
 }
 
