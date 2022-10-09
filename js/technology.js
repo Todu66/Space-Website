@@ -15,6 +15,18 @@ const rightThirdP = document.querySelector('.right-third-p');
 // -----------------------------------
 const imageRight = document.querySelector('.right_img');
 
+const btnNavEl = document.querySelector(".btn-mobile-nav");
+const headerEl = document.querySelector(".header");
+const liEl = document.querySelector(".main-nav-list, .main-nav-link");
+
+btnNavEl.addEventListener("click", function () {
+  headerEl.classList.toggle("nav-open");
+});
+
+liEl.addEventListener("click", function () {
+  headerEl.classList.remove("nav-open");
+});
+
 techFirst.addEventListener('click', function() {
     techFirst.style.backgroundColor = "#fff"
     techSecond.style.backgroundColor = 'hsla(0, 0.1%, 0.1%, 0.1)';
